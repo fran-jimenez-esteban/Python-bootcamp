@@ -1,0 +1,18 @@
+- git add filename: una vez hecho los cambios que quieres en tu fichero, lo añades a los ficheros que quieres subir al repositorio compartido.
+
+- git status: te da info de como esta la cosa
+
+- git reset HEAD filename: te quita el fichero de los que quieres subir al repositorio compartido. 
+
+- git checkout -- names.txt: te vuelve a la última version buena. Sobreescribe la ultima que hemos cambiado.
+
+- 'git status' print the current status of the repo, which files are being tracked and which are staged etc.
+
+- 'git commit --amend' to change the last commit message (use with caution ;))
+
+- 'git log' See the last commits
+
+- 'git commit -a' add all unstaged commits and commit them.
+
+- 'git log --name-status' show the git log with modified files
+
